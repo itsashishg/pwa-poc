@@ -5,7 +5,11 @@
       <p>Scan Barcode:</p>
       <mat-form-field appearance="outline">
         <input matInput placeholder="Barcode">
+        <mat-icon matSuffix (click)="openCamera()">camera_alt</mat-icon>
       </mat-form-field>
+      <p>
+        <button mat-stroked-button (click)="submit()">Submit</button>
+      </p>
     </div>
   </div>
 </div>

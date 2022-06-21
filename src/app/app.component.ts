@@ -7,4 +7,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'test';
+
+  openCamera() {
+    console.log('open camera');
+  }
+
+  submit() {
+    console.log('submit');
+  }
 }

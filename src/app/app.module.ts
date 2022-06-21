@@ -9,6 +9,8 @@ import { environment } from '../environments/environment';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { MatIconModule } from '@angular/material/icon';
+import { MatButtonModule } from '@angular/material/button';
 
 
 @NgModule({
@@ -23,6 +25,8 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     MatInputModule,
     FormsModule,
     ReactiveFormsModule,
+    MatIconModule,
+    MatButtonModule,
     ServiceWorkerModule.register('ngsw-worker.js', {
       enabled: environment.production,
       // Register the ServiceWorker as soon as the app is stable
